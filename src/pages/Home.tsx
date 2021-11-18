@@ -35,9 +35,6 @@ import axios from "axios";
 
 import "./Home.css"
 
-import Menu from '../components/Menu'
-
-
 const dummy = [
   { ticker: "GME", expiry: "September 10, 2021", strike: 65, leverage: 500, price: 0.13, quality: 2 },
   { ticker: "GME", expiry: "September 10, 2021", strike: 60, leverage: 300, price: 0.2, quality: 2 },
@@ -95,7 +92,6 @@ const dummy = [
   { ticker: "GME", expiry: "September 10, 2021", strike: 70, leverage: 43.478, price: 1.61, quality: 2 },
   { ticker: "GME", expiry: "September 10, 2021", strike: 65, leverage: 32.995, price: 1.97, quality: 2 },
 ];
-
 
 interface option {
   ticker: string;

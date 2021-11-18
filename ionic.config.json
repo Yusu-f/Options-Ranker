@@ -1,0 +1,7 @@
+{
+  "name": "optionscrwaler",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
